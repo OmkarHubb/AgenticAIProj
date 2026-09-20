@@ -1,3 +1,15 @@
+---
+title: Emergency Patient Priority Classification System
+emoji: 🏥
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 6.28.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # Emergency Patient Priority Classification & Agentic Triage System
 
 An AI-powered emergency department workstation utilizing a **LangGraph Multi-Agent Engine**, **Scikit-learn Random Forest ML Model**, **Groq LLM Reasoning**, **Tavily Clinical Web Search**, and **SQLite Persistent Memory**, served via a pure **Gradio UI**.
