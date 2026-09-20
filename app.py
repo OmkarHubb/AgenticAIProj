@@ -195,7 +195,7 @@ body { font-family: 'Inter', -apple-system, sans-serif; background-color: #f1f5f
 .gr-button-primary:hover { background-color: #0369a1 !important; }
 """
 
-with gr.Blocks(title="Emergency Patient Priority Classification System", css=custom_css, theme=gr.themes.Soft()) as app:
+with gr.Blocks(title="Emergency Patient Priority Classification System") as app:
     gr.HTML("""
     <div class="header-box">
         <h1>Emergency Patient Priority Classification System</h1>
@@ -318,4 +318,4 @@ with gr.Blocks(title="Emergency Patient Priority Classification System", css=cus
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))
-    app.launch(server_name="0.0.0.0", server_port=port)
+    app.launch(server_name="0.0.0.0", server_port=port, css=custom_css, theme=gr.themes.Soft())
