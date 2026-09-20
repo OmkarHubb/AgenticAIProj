@@ -317,4 +317,5 @@ with gr.Blocks(title="Emergency Patient Priority Classification System", css=cus
     btn_run_search.click(handle_tavily_search, inputs=[tavily_query_in], outputs=[search_out])
 
 if __name__ == "__main__":
-    app.launch(server_name="127.0.0.1", server_port=8000)
+    port = int(os.getenv("PORT", 8000))
+    app.launch(server_name="0.0.0.0", server_port=port)
