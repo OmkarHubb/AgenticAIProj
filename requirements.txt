@@ -1,0 +1,12 @@
+langchain
+langchain-groq
+langchain-core
+langchain-community
+gradio
+scikit-learn
+pandas
+numpy
+joblib
+python-dotenv
+langgraph
+requests

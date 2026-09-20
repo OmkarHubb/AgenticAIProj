@@ -1,0 +1,15 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Gradio cache
+.gradio/
+
+# SQLite database files
+*.db
+
+# Logs
+*.log
